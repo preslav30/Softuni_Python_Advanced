@@ -1,9 +1,10 @@
 def matching_parentheses(the_str):
     parenthesis = []
     for i in range(len(the_str)):
-        if the_str[i] == "(":
+        symbol = the_str[i]
+        if symbol == "(":
             parenthesis.append(i)
-        elif the_str[i] == ")":
+        elif symbol == ")":
             start_index = parenthesis.pop()
             print(the_str[start_index:i+1])
 
