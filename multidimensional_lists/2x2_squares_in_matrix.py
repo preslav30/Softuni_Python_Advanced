@@ -1,7 +1,6 @@
 rows, columns = list(map(int, input().split()))
 matrix = []
-submatrices = 0
-
+submatrix = []
 
 for i in range(rows):
     matrix.append(input().split())
