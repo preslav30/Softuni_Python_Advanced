@@ -16,6 +16,6 @@ for row in range(r):
             popped = snake.popleft()
             roww += popped
             snake.append(popped)
-        print(roww[::-1]) 
+        print(roww[::-1])
 
 
