@@ -35,7 +35,7 @@ for dx, dy in directions:
         if element != "B":
             eggs += int(element)
             path.append([x, y])
-        x += dx
+        x += dx  # we increase the direction by the value of itself so that if it is 0, it stays 0, if it is negative, it stays negative
         y += dy
     if eggs > max_eggs:
         max_eggs = eggs
