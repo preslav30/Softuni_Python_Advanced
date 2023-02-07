@@ -64,6 +64,6 @@ print(max_eggs)
 # x, y are set to the starting position of the bunny start, eggs is set to 0 (to keep track of the number of eggs collected),
 # and path is set to an empty list (to keep track of the path that the bunny took).
 # Next, we have the while loop, which will continue to execute until either the current position is out of bounds of the field, or we have reached a trap ("X").
-# In each iteration of the while loop, we first access the item at the current position in the field using the field[x][y] expression.
+# In each iteration of the while loop, we first access the item at the current position in the field using the matrix[x][y] expression.
 # If the item is not a trap ("X") or a bunny ("B"), we increment the eggs variable by the value of the item (which is assumed to be a number), and append the current position to the path list.
 # After we have processed the current position, we update the x and y coordinates for the next position by adding dx and dy respectively.
